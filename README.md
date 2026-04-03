@@ -1,8 +1,8 @@
-# NREL Wind Turbine Power Curve Archive
+# NLR Wind Turbine Power Curve Archive
 
 [![PyPI version](https://badge.fury.io/py/turbine-models.svg)](https://badge.fury.io/py/turbine-models)
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-[![docs - GitHub Pages](https://img.shields.io/badge/docs-GitHub_Pages-blue)](https://nrel.github.io/turbine-models/)
+[![docs - GitHub Pages](https://img.shields.io/badge/docs-GitHub_Pages-blue)](https://natlabrockies.github.io/turbine-models/)
 [![DOI 10.11578/dc.20210112.1](https://img.shields.io/badge/DOI-10.11578/dc.20210112.1-brightgreen?link=https://doi.org/10.11578/dc.20210112.1)](https://doi.org/10.11578/dc.20210112.1)
 
 ## Welcome to the repository for the wind turbine power curve archive.
@@ -24,7 +24,7 @@ Here you can find .csv files with the following turbine data:
 
 ## Documentation
 Each turbine included in the repository is documented in detail:
-https://nrel.github.io/turbine-models/
+https://natlabrockies.github.io/turbine-models/
 
 The name of the turbine on the .csv file with tabular data should match up with a corresponding documentation page.
 
@@ -41,7 +41,7 @@ pip install turbine-models
 1. Using Git, navigate to a local target directory and clone repository:
 
     ```bash
-    git clone https://github.com/NREL/turbine-models.git
+    git clone https://github.com/NatLabRockies/turbine-models.git
     ```
 
 2. Navigate to `turbine-models`

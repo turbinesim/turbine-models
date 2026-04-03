@@ -6,13 +6,13 @@ build-backend = "setuptools.build_meta"
 name = "turbine-models"
 dynamic = ["version"]
 authors = [
-    {name = "Patrick Duffy", email = "patrick.duffy@nrel.gov"},
+    {name = "Patrick Duffy", email = "patrick.duffy@nlr.gov"},
     {name = "Travis Williams"},
 ]
 maintainers = [
-    {name = "Patrick Duffy", email = "patrick.duffy@nrel.gov"},
-    {name = "Elenya Grant", email = "elenya.grant@nrel.gov"},
-    {name = "Rob Hammond", email = "rob.hammond@nrel.gov"},
+    {name = "Patrick Duffy", email = "patrick.duffy@nlr.gov"},
+    {name = "Elenya Grant", email = "elenya.grant@nlr.gov"},
+    {name = "Rob Hammond", email = "rob.hammond@nlr.gov"},
 ]
 readme = {file = "README.md", content-type = "text/markdown"}
 description = "Retrieves power curves and key data for commonly used turbine models in industry and R&D community."
@@ -57,10 +57,10 @@ classifiers = [
 ]
 
 [project.urls]
-source = "https://github.com/NREL/turbine-models"
-documentation = "https://nrel.github.io/turbine-models/"
-issues = "https://github.com/NREL/turbine-models/issues"
-changelog = "https://github.com/NREL/turbine-models/blob/main/RELEASE.md"
+source = "https://github.com/NatLabRockies/turbine-models"
+documentation = "https://natlabrockies.github.io/turbine-models/"
+issues = "https://github.com/NatLabRockies/turbine-models/issues"
+changelog = "https://github.com/NatLabRockies/turbine-models/blob/main/RELEASE.md"
 
 [project.optional-dependencies]
 develop = [

@@ -20,7 +20,7 @@ body:
 
       Please also **update the issue title** as well.
     value: |
-      `OEM_MODEL_POWER_ROTOR_DIAMETER`: https://github.com/NREL/turbine-models
+      `OEM_MODEL_POWER_ROTOR_DIAMETER`: https://github.com/NatLabRockies/turbine-models
   validations:
     required: true
 

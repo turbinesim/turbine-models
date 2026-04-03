@@ -3,7 +3,7 @@
 ## Getting started
 
 These contributing guidelines should be read by anyone wishing to contribute code, 
-turbines, or documentation changes into the NREL turbine-models library.
+turbines, or documentation changes into the NLR turbine-models library.
 
 1. Create a fork of turbine-models on GitHub
 2. Clone your fork of the repository
@@ -24,9 +24,9 @@ turbines, or documentation changes into the NREL turbine-models library.
     pip install -e ".[dev,docs]"
     ```
 
-## Keeping your fork in sync with NREL/turbine-models
+## Keeping your fork in sync with NatLabRockies/turbine-models
 
-The "main" turbine-models repository is regularly updated with ongoing research at NREL
+The "main" turbine-models repository is regularly updated with ongoing research at NLR
 and beyond. After creating and cloning your fork from the previous section, you will
 want to keep it up to date with the latest improvements.
 
@@ -41,14 +41,14 @@ inevitably arise in development work.
    cd /your/path/to/turbine-models/
    ```
 
-2. If you haven't already, add NREL/turbine-models as the "upstream" location (or whichever naming
+2. If you haven't already, add NatLabRockies/turbine-models as the "upstream" location (or whichever naming
    convention you prefer).
 
    ```bash
-   git remote add upstream https://github.com/NREL/turbine-models.git
+   git remote add upstream https://github.com/NatLabRockies/turbine-models.git
    ```
 
-   To find the name you've given NREL/turbine-models again, you can simply run the following to display
+   To find the name you've given NatLabRockies/turbine-models again, you can simply run the following to display
    all the remote sources you're tracking.
 
    ```bash
@@ -61,7 +61,7 @@ inevitably arise in development work.
    git fetch --all
    ```
 
-4. Sync the upstream (NREL) changes
+4. Sync the upstream (NLR) changes
 
    ```bash
    git checkout main
@@ -89,9 +89,9 @@ release. The following steps will outline this process, including if anything go
 wrong.
 
 1. Bump the version by the appropriate major, minor, or patch version in
-   [`turbine_models/__init__.py`](https://github.com/NREL/turbine-models/blob/main/turbine_models/__init__.py).
+   [`turbine_models/__init__.py`](https://github.com/NatLabRockies/turbine-models/blob/main/turbine_models/__init__.py).
 2. Date-stamp the unreleased version in
-   [`RELEASE.md`](https://github.com/NREL/turbine-models/blob/main/RELEASE.md), and
+   [`RELEASE.md`](https://github.com/NatLabRockies/turbine-models/blob/main/RELEASE.md), and
    ensure the version matches the version used in step 1.
 3. Stage, commit, and push the changes.
 4. Tag the new version: `git tag -a v1.2.3 -m "Tag message for v1.2.3"`.
@@ -104,7 +104,7 @@ wrong.
    2. Address the build or publishing errors in the GitHub Action.
    3. Repeat the process starting back to step 3 in the main instructions.
 7. Create a new release with release notes, using the new tag at
-   https://github.com/NREL/turbine-models/releases/new. Once published, this will
+   https://github.com/NatLabRockies/turbine-models/releases/new. Once published, this will
    trigger the `.github/workflows/publish_to_pypi.yml` GitHub Action that publishes
    the new release on PyPI. If this is unsuccessful, follow the substeps for step 6,
    except that you will be unable to republish to Test PyPI because PyPI and Test PyPI
